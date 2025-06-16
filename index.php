@@ -1935,6 +1935,5 @@ do_action( 'woocommerce_before_main_content' );
 
 
 <?php
-	//include 'footer.php';
 	get_footer();
 ?> 

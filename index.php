@@ -24,8 +24,6 @@
 	
 defined( 'ABSPATH' ) || exit;
 
-//get_header( 'shop' );
-//include 'header.php';
 get_header();
 
 /**

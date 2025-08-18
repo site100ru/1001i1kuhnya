@@ -1,0 +1,25 @@
+name: Deploy 1001i1kuhnya.ru
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Connect to server
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REGRU_HOST }}
+          username: ${{ secrets.REGRU_USER }}
+          key: ${{ secrets.REGRU_KEY }}
+          script: |
+
+            # For first deploy
+            # cd /var/www/u1538455/data/www/site100.ru/html-templates/universal-html-template
+            # git clone https://github.com/site100ru/universal-html-template.git .
+            
+            # For next deploys
+            cd /var/www/u1538455/data/www/1001i1kuhnya.ru/wp-content/themes/furniture-catalog
+            git pull

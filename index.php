@@ -17,6 +17,7 @@
  *
  * Template Name: Главная
  * Template Post Type: page
+ * Test autodeploy
  */
 	
 defined( 'ABSPATH' ) || exit;

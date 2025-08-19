@@ -154,7 +154,7 @@
 
 
 <!-- Certificate section -->
-<section class="bg-white py-5">
+<!-- <section class="bg-white py-5">
 	<div class="site-section pb-3">
 		<div class="container">
 			<div class="row">
@@ -188,7 +188,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- /Certificate section -->
 
 

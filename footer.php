@@ -23,7 +23,7 @@
 								<i class="fas fa-envelope fs-5 text-corporation-orange" style="min-width: 25px;"></i> Email: <a href="mailto:1001_1@bk.ru">1001_1@bk.ru</a>
 							</li>
 							<li class="mb-3"><i class="fab fa-vk fs-5 text-corporation-orange" style="min-width: 25px;"></i> Вконтакте: <a href="https://vk.com/public205268139">vk.com/public205268139</a></li>
-							<li><i class="fab fa-instagram fs-5 text-corporation-orange" style="min-width: 25px;"></i> Инстаграм: <a href="https://instagram.com/1001kuhnya?igshid=2mcmhikbs8t4">https://instagram.com/1001kuhnya</a></li>
+							<!-- <li><i class="fab fa-instagram fs-5 text-corporation-orange" style="min-width: 25px;"></i> Инстаграм: <a href="https://instagram.com/1001kuhnya?igshid=2mcmhikbs8t4">https://instagram.com/1001kuhnya</a></li> -->
 						</ul>
 						
 						
@@ -67,8 +67,8 @@
 	<footer class="container py-3">
 		<div class="row">
 			<div class="col">
-				<p class="m-0 text-light text-center fw-light"> &#169;<?php echo date( 'Y' ); ?> <a href="https://сайт100.рф" class="text-light fw-light text-decoration-none">Мебельный магазин <strong>1001 и 1 кухня</strong></a></p>
-				<p class="m-0 fs-075 text-light text-center fw-light">Создание и продвижение сайта: <a href="https://сайт100.рф" class="text-light fw-light text-decoration-none">сайт<span class="text-danger">100</span>.рф</a></p>
+				<p class="m-0 text-light text-center fw-light"> &#169;<?php echo date( 'Y' ); ?> <a href="https://site100.ru" class="text-light fw-light text-decoration-none">Мебельный магазин <strong>1001 и 1 кухня</strong></a></p>
+				<p class="m-0 fs-075 text-light text-center fw-light">Создание и продвижение сайта: <a href="https://site100.ru" class="text-light fw-light text-decoration-none">site<span class="text-danger">100</span>.ru</a></p>
 			</div>
 		</div>
 	</footer>

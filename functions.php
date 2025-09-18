@@ -388,8 +388,8 @@
 								<h2 class="text-uppercase text-center text-corporation-orange fw-bold">Акции и скидки</h2>
 								<div class="row justify-content-center">
 									<div class="col-md-6 mt-5">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-img-from-25-04-09.webp" class="w-100 mb-3 rounded">
-										<p>Обязательное условие: наличие вытяжки. В акции участвуют все категории встраиваемой и отдельностоящей техники. Исключаются духовые шкафы 40-й серии (4 режима). Акция не суммируется с другими спецпредложениями. Срок действия акции с 08.04 по 30.06.2025. Количество товаров по акции ограничено! Подробности уточняйте у менеджера.</p>
+										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-img-from-25-09-18.webp" class="w-100 mb-3 rounded">
+										<p>С 17.09.2025 стартует промо — <strong>Скидка&#160;20%</strong> на комплект техники LEX из 3 приборов. Обязательно одним из приборов в комплекте должен быть духовой шкаф. Позиции в комплекте должны быть из разных товарных групп. В акции не участвуют товары из категории МБТ, в том числе соло СВЧ, и угольные фильтры.</p>
 									</div>
 									<div class="col-md-6 mt-5">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-from-2024-10-18-2.jpg" class="w-100 mb-3 rounded">
@@ -428,8 +428,8 @@
 										<p>При заказе  любой корпусной мебели доставка <strong>бесплатно!</strong></p>
 									</div-->
 									<div class="col-md-6 mt-5">
-										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-img-from-25-04-09.webp" class="w-100 mb-3 rounded">
-										<p>Обязательное условие: наличие вытяжки. В акции участвуют все категории встраиваемой и отдельностоящей техники. Исключаются духовые шкафы 40-й серии (4 режима). Акция не суммируется с другими спецпредложениями. Срок действия акции с 08.04 по 30.06.2025. Количество товаров по акции ограничено! Подробности уточняйте у менеджера.</p>
+										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-img-from-25-09-18.webp" class="w-100 mb-3 rounded">
+										<p>С 17.09.2025 стартует промо — <strong>Скидка&#160;20%</strong> на комплект техники LEX из 3 приборов. Обязательно одним из приборов в комплекте должен быть духовой шкаф. Позиции в комплекте должны быть из разных товарных групп. В акции не участвуют товары из категории МБТ, в том числе соло СВЧ, и угольные фильтры.</p>
 									</div>
 									<div class="col-md-6 mt-5">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-from-2024-10-18-2.jpg" class="w-100 mb-3 rounded">

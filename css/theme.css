@@ -1733,7 +1733,7 @@ a.custom-logo-link.new-year:before {
     z-index: 9999;
     position: absolute;
     background-size: contain;
-    right: -25px;
+    right: -20px;
     bottom: 5px;
     transform: scaleX(-1);
     rotate: 30deg;

@@ -1,16 +1,20 @@
 /* Функция "Уменьшало" */
 onscroll = function prilipalo() {
-	var prokrutka = window.pageYOffset;
-	//document.getElementById('menu-1').innerHTML=prokrutka;
-	if ( prokrutka < 100 ) {
-		//document.getElementById('nav').style.position = 'inherit';
-		document.getElementById('navbar-brand').style.height = '60px';
-		//document.getElementById('navbar-brand').style.position = 'fixed';
-	} else {
-		//document.getElementById('menu-1').style.top = '0';
-		document.getElementById('navbar-brand').style.height = '50px';
-	}
-}
+    var prokrutka = window.pageYOffset;
+
+    var logo = document.getElementById('navbar-brand');
+    var topMenu = document.getElementById('top-menu');
+
+    if (!logo || !topMenu) return;
+
+    if (prokrutka < 100) {
+        logo.style.height = '60px';
+        topMenu.classList.remove('header--small');
+    } else {
+        logo.style.height = '50px';
+        topMenu.classList.add('header--small');
+    }
+};
 
 /* Messengers 2 */
 function clickMessengers2Button() {

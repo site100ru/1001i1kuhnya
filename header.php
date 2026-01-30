@@ -38,16 +38,20 @@
 	<?php //wp_head(); ?>
 	<title><?php head_title(); ?></title>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
 
 <!-- Top Menu -->
 <nav id="top-menu" class="navbar navbar-expand-xl navbar-dark py-2 fixed-top shadow"> <!-- mx-auto me-auto -->
 	<div class="container"> <!-- container/container-fluid -->
-		<a class="navbar-brand text-uppercase fw-bold" href="https://1001i1kuhnya.ru/">
+		<!-- <a class="navbar-brand text-uppercase fw-bold" href="https://1001i1kuhnya.ru/"> -->
 			<!--site<span class="text-danger">100</span>.ru-->
-			<img src="<?php echo get_template_directory_uri(); ?>/images/icons/logo1001.svg" id="navbar-brand" alt="Мебельный магазин 1001 и 1 кухня">
-		</a>
+			<!-- <img src="<?php echo get_template_directory_uri(); ?>/images/icons/logo1001.svg" id="navbar-brand" alt="Мебельный магазин 1001 и 1 кухня"> -->
+		<!-- </a> -->
+
+        <a href="/" class="navbar-brand text-uppercase fw-bold custom-logo-link new-year" rel="home" aria-current="page" id="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/logo1001.svg" class="custom-logo" id="navbar-brand" alt="Логотип мебельный магазин 1001 и 1 кухня в шапке" decoding="async" />
+        </a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>

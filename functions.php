@@ -390,7 +390,7 @@
 									<div class="col-md-6 mt-5">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-img-from-25-09-18.webp" class="w-100 mb-3 rounded">
 										<ol>
-											<!--li>Период проведения акции: 01.11.2025 – 31.12.2025.</li-->
+											<!--li>Период проведения акции: 01.11.2025 – 31.01.2026.</li-->
 											<li>В акции участвует весь ассортимент крупной бытовой техники бренда <strong>KÖRTING</strong> (отдельностоящая и встраиваемая). Не участвуют отдельностоящие микроволновые печи и малая бытовая техника.</li>
 											<li>Подарки предоставляются:
 												<ul>
@@ -444,7 +444,7 @@
 									<div class="col-md-6 mt-5">
 										<img src="<?php echo get_template_directory_uri(); ?>/img/actions/action-img-from-25-09-18.webp" class="w-100 mb-3 rounded">
 										<ol>
-											<!--li>Период проведения акции: 01.11.2025 – 31.12.2025.</li-->
+											<!--li>Период проведения акции: 01.11.2025 – 31.01.2026.</li-->
 											<li>В акции участвует весь ассортимент крупной бытовой техники бренда <strong>KÖRTING</strong> (отдельностоящая и встраиваемая). Не участвуют отдельностоящие микроволновые печи и малая бытовая техника.</li>
 											<li>Подарки предоставляются:
 												<ul>
@@ -492,5 +492,13 @@
 			<?php break;
 		}
 	}
-	
+
+    // КЛАССЫ В BODY_CLASS
+    add_filter('body_class', 'custom_body_classes');
+
+    function custom_body_classes($classes) {
+        // Добавить класс для всех страниц
+        $classes[] = 'b-new-year';
+        return $classes;
+    }
 ?>

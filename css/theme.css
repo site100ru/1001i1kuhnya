@@ -1083,232 +1083,278 @@ h4, .widget-title {
 }
 
 @keyframes change {
-	0% {
-		background-image: url(../images/icons/callback-button-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		-o-transform:rotate(0deg);
-		transform: rotate(0deg);
-		opacity: 0;
-	}
-	1% {
-		background-image: url(../images/icons/callback-button-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(360deg);
-		-ms-transform: rotate(360deg);
-		-o-transform: rotate(360deg);
-		transform: rotate(360deg);
-		opacity: 1;
-	}
-	
-	24% {
-		background-image: url(../images/icons/callback-button-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(360deg);
-		-ms-transform: rotate(360deg);
-		-o-transform: rotate(360deg);
-		transform: rotate(360deg);
-		opacity: 1;
-	}
-	25% {
-		background-image: url(../images/icons/callback-button-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		opacity: 0;
-	}
-	26% {
-		background-image: url(../images/icons/callback-phone-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		opacity: 0;
-	}
-	27% {
-		background-image: url(../images/icons/callback-phone-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		transform: rotate(360deg);
-		-webkit-transform:rotate(360deg);
-		-ms-transform: rotate(360deg);
-		opacity: 1;
-	}
-	49% {
-		background-image: url(../images/icons/callback-phone-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		opacity: 1;
-		transform: rotate(360deg);
-		-webkit-transform: rotate(360deg);
-		-ms-transform: rotate(360deg);
-	}
-	50% {
-		background-image: url(../images/icons/callback-phone-ico.png);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
-		opacity: 0;
-	}
-	51% {
-		background-image: url(../images/icons/callback-whatsapp-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		transform: rotate(0deg);
-		opacity: 0;
-	}
-	52% {
-		background-image: url(../images/icons/callback-whatsapp-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		opacity: 1;
-		transform: rotate(360deg);
-	}
-	74% {
-		background-image: url(../images/icons/callback-whatsapp-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		opacity: 1;
-		transform: rotate(360deg);
-	}
-	75% {
-		background-image: url(../images/icons/callback-whatsapp-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-		opacity: 0;
-	}
-	76% {
-		background-image: url(../images/icons/callback-telegram-ico.svg);
-		background-position:center;
-		background-repeat: no-repeat;
-		-moz-background-size: cover;
-		-webkit-background-size:cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-		opacity: 0;
-	}
-	77% {
-		background-image: url(../images/icons/callback-telegram-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-		opacity: 1;
-	}
-	99%{
-		background-image: url(../images/icons/callback-telegram-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-		opacity: 1;
-	}
-	100% {
-		background-image: url(../images/icons/callback-telegram-ico.svg);
-		background-position: center;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-		opacity: 0;
-	}
+    0% {
+        background-image: url(../img/ico/callback-button-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    1% {
+        background-image: url(../img/ico/callback-button-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    19% {
+        background-image: url(../img/ico/callback-button-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    20% {
+        background-image: url(../img/ico/callback-button-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        opacity: 0;
+    }
+    21% {
+        background-image: url(../img/ico/callback-phone-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        opacity: 0;
+    }
+    22% {
+        background-image: url(../img/ico/callback-phone-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        opacity: 1;
+    }
+    39% {
+        background-image: url(../img/ico/callback-phone-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        opacity: 1;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+    }
+    40% {
+        background-image: url(../img/ico/callback-phone-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        opacity: 0;
+    }
+    41% {
+        background-image: url(../img/ico/callback-whatsapp-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    42% {
+        background-image: url(../img/ico/callback-whatsapp-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    59% {
+        background-image: url(../img/ico/callback-whatsapp-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    60% {
+        background-image: url(../img/ico/callback-whatsapp-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    61% {
+        background-image: url(../img/ico/callback-telegram-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    62% {
+        background-image: url(../img/ico/callback-telegram-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    79% {
+        background-image: url(../img/ico/callback-telegram-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    80% {
+        background-image: url(../img/ico/callback-telegram-ico.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    81% {
+        background-image: url(../img/ico/callback-max-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    82% {
+        background-image: url(../img/ico/callback-max-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+    99% {
+        background-image: url(../img/ico/callback-max-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+    100% {
+        background-image: url(../img/ico/callback-max-ico.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
 }
 
 @keyframes change2 {
-	0% {
-		background-image: url(../images/icons/callback-button-close.png);
-		background-position :center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		transform: rotate(0deg);
-		opacity: 0;
-	}
-	50% {
-		background-image: url(../images/icons/callback-button-close.png);
-		background-position: center;
-		background-repeat:no-repeat;
-		background-size:cover;
-		-moz-background-size:cover;
-		-webkit-background-size:cover;
-		-o-background-size:cover;
-		transform:rotate(180deg);
-		opacity:1
-	}
+    0% {
+        background-image: url(../img/ico/callback-button-close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        background-image: url(../img/ico/callback-button-close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        transform: rotate(180deg);
+        opacity: 1;
+    }
 }
 
 .callback-form-button {
@@ -1429,6 +1475,36 @@ h4, .widget-title {
 	-moz-background-size: contain;
 	-webkit-background-size: contain;
 	-o-background-size :contain;
+}
+
+.callback-max-button {
+    width: 50px;
+    height: 50px;
+    background:#ff5200;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    transition: 0.25s;
+}
+
+.callback-max-button:hover {
+    background: #d64906;
+}
+
+.callback-max-button-ico {
+    width: 30px;
+    height: 30px;
+    filter: invert();
+    background: url(../img/ico/callback-max-ico.png) center no-repeat;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
 }
 /*** CALLBACK BUTTON ***/
 
@@ -1641,3 +1717,65 @@ h4, .widget-title {
 	font-size: 20px;
 	color: white;
 }
+
+
+/*** NEW YEAR ***/
+a.custom-logo-link.new-year {
+    position: relative;
+}
+
+
+a.custom-logo-link.new-year:before {
+    content: '';
+    background: url(../img/new-year/new-year-cap.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+    position: absolute;
+    background-size: contain;
+    right: -20px;
+    bottom: 5px;
+    transform: scaleX(-1);
+    rotate: 30deg;
+}
+
+
+#top-menu a.custom-logo-link.new-year:before {
+    transition: all 0.2s ease;
+}
+
+/* при скролле */
+#top-menu.header--small a.custom-logo-link.new-year:before {
+    width: 22px;
+    height: 22px;
+    right: -10px;
+    bottom: 15px;
+}
+
+
+a.custom-logo-link.new-year img {
+    margin-top: auto;
+}
+
+body.b-new-year {
+    position: relative;
+}
+
+body.b-new-year:before {
+    position: fixed;
+    background: url(../img/new-year/new-year-footer-banner.png) repeat-x;
+    content: '';
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background-size: contain;
+}
+
+@media (max-width: 1300px) {
+    body.b-new-year:before {
+		background-size: cover;
+	}
+}
+/*** END NEW YEAR ***/

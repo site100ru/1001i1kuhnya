@@ -491,7 +491,7 @@
 				<!-- /Action section -->
 			<?php break;
 		}
-	}
+	} 
 
     // КЛАССЫ В BODY_CLASS
     // add_filter('body_class', 'custom_body_classes');

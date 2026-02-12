@@ -48,7 +48,7 @@ do_action( 'woocommerce_before_main_content' );
 				<h2 class="text-uppercase header-subtitle">И собственное производство по&nbspиндивидуальным размерам></h2> -->
 				
 				<!-- Title -->
-				<h1 class="text-uppercase mb-4" style="max-width: 950px;">Кухни, шкафы и другая корпусная мебель в Рязани</h1>
+				<h1 class="text-uppercase mb-4" style="max-width: 950px;">Кухни, шкафы и другая корпусная мебель в Рязани...</h1>
 				<!-- Subtitle -->
 				<h2 class="home-subtitle" style="text-align: left; margin-left: 0;">Готовая и на заказ по&nbspиндивидуальным размерам, собственного производства и от&nbspизвестных отечественных производителей.</h2>
 				<a href="#quiz-sp" type="button" class="btn btn-lg btn-corporation-orange" style="margin-top: 40px;">Рассчитать стоимость</a>
@@ -59,8 +59,8 @@ do_action( 'woocommerce_before_main_content' );
 <!-- /Home -->
 
 
-<section class="bg-light py-5">
 <!-- Portfolio -->
+<section class="bg-light py-5">
 	<div class="site-section pb-3">
 		<div class="container">
 			<div class="row">
@@ -97,8 +97,8 @@ do_action( 'woocommerce_before_main_content' );
 			</div>
 		</div>
 	</div>
-	<!-- Portfolio -->
 </section>
+<!-- Portfolio -->
 
 
 <!-- Portfolio section 2 --

@@ -699,7 +699,7 @@
 		<noscript><div><img src="https://mc.yandex.ru/watch/87743261" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 		<!-- /Yandex.Metrika counter -->
 		
-        <?php include get_template_directory() . '/inc/snowflake/snowflake.php'; ?>
+        <!-- <?php include get_template_directory() . '/inc/snowflake/snowflake.php'; ?> -->
 		
 		<!-- Top.Mail.Ru counter -->
 		<script type="text/javascript">

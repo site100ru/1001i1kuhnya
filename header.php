@@ -14,13 +14,15 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content='Мебельный магазин 1001 и 1 кухня'/>
-	<meta name="keywords" content="Мебельный магазин 1001 и 1 кухня" />
+
+    <meta name="description" content="<?php echo_description(); ?>" />
+	<meta property="og:description" content="<?php echo_description(); ?>" />
+    <meta name="keywords" content="<?php echo wp_get_document_title(); ?>" />
 	<meta property="og:locale" content="ru_RU" />
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content='<?php bloginfo('name'); ?>' />
-	<meta property="og:title" content="<?php head_title(); ?>" />
-	<meta property="og:description" content="Мебельный магазин 1001 и 1 кухня" />
+    <meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
+	<meta property="og:title" content="<?php echo wp_get_document_title(); ?>" />
+
 	<meta property="og:image" content="images/review.jpg" />
 	<meta property="og:url" content="index.php" />
 	<meta name="yandex-verification" content="d021064002c28be5" />

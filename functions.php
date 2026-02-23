@@ -375,6 +375,48 @@
 	/*** END ИЗМЕНЯЕМ НАЗВАНИЕ СТРАНИЦЫ ДЛЯ КАТЕГОРИЙ ***/
 	
 	
+    /*** ДЕЛАЕМ ПРАВИЛЬНЫЙ DESCRIPTION ДЛЯ КАЖДОЙ СТРАНИЦЫ ***/
+	function echo_description() {
+		
+		// Если страница стандартной категории поста
+		if ( is_category() ) {
+			echo wp_strip_all_tags( category_description() );
+		
+		// Если страница продукта woocommerce
+		} elseif ( is_product() ) {
+			$product = wc_get_product( get_the_ID() ); 
+			$short_description = $product->get_short_description();
+			echo wp_strip_all_tags( $short_description );
+		
+		// Если страница категории продукта woocommerce
+        } elseif ( is_product_category() ) {
+            $term = get_queried_object(); // Получаем текущую категорию
+            if( $term && !empty( $term->description ) ){
+                echo wp_strip_all_tags( $term->description ); // Описание только текущей категории
+            }
+		
+		// Если страница портфолио
+		} elseif ( is_post_type_archive( 'portfolio' ) ) {
+			echo 'Наши выполненные работы';
+		
+		// Если страница категорий портфолио
+		} elseif ( is_tax( 'portfolio-cat' ) ) {
+			$term = get_queried_object(); // Получаем текущий термин
+			echo wp_strip_all_tags( $term->description );
+			//echo 'Категория портфолио';
+		
+		// Если страница магазина	
+		} elseif ( is_shop() ) {
+			$shop_page_id = wc_get_page_id('shop');
+			echo wp_strip_all_tags( get_the_excerpt($shop_page_id) );
+		
+		// Если обычная страница
+		} else {
+			echo wp_strip_all_tags( get_the_excerpt() );
+		}
+	}
+	/*** END ДЕЛАЕМ ПРАВИЛЬНЫЙ DESCRIPTION ДЛЯ КАЖДОЙ СТРАНИЦЫ ***/
+	
 	
 	/*** Actions section ***/
 	function actionsSection( $var ) {
